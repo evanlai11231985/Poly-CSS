@@ -29,6 +29,5 @@ https://raw.githubusercontent.com/evanlai11231985/Poly-CSS/master/Store-Quick-Ca
 9. 檢附資料 (目前同 8.)
 https://raw.githubusercontent.com/evanlai11231985/Poly-CSS/master/Store-Quick-Calculation.css
 
-
 <成長期>
 https://raw.githubusercontent.com/evanlai11231985/Poly-CSS/master/Growth-Widget.css
