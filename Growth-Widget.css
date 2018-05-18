@@ -302,6 +302,6 @@ body {
 }
 
 .text-primary {
-	color: #ff4b00;
+	color: #ff4b00 !important;
 	font-size: 16px;
 }
