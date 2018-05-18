@@ -1,12 +1,15 @@
 body {
     font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體';
     padding-bottom: 0 !important;
-    font-size: 14.5px;
+    font-size: 14.75px;
+    height: 100vh;
+    background-color: #F2F2F2 !important;
 }
 
 /*修改*/
 .wrapper {
-    padding-top: 2vh;
+    padding-top: 1.25vh;
+    line-height: 1.4;
     letter-spacing: 0.05vw !important;
     font-weight: 400;
 }
@@ -194,7 +197,7 @@ body {
 /*以下新增*/
 .footer {
     font-size: 14px;
-    color: #BFBFBF;
+    color: #A6A6A6;
 }
 
 .form-control {
@@ -207,15 +210,16 @@ body {
 
 .portlet {
     margin-top: 2vh;
-}
-
-.portlet .portlet-body {
-    background-color: #fbfbfb;
-    padding: 15px 25px;
+    box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.2) !important;
 }
 
 .portlet .portlet-heading {
     font-size: 20px;
+}
+
+.portlet .portlet-body {
+    background-color: #FBFBFB;
+    padding: 15px 25px;
 }
 
 .btn, .btn:hover {
@@ -230,12 +234,12 @@ body {
     background-color: transparent;
 }
 
-.btn-warning, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open > .dropdown-toggle.btn-warning {
+.btn-warning, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover {
     font-size: 21px !important;
     font-weight: lighter !important;
     color: #fff !important;
     letter-spacing: -2px !important;
-    margin: 2% 12% !important;
+    margin: 0% 12% !important;
     width: 78%;
     font-weight: lighter;
     background-color: #FFA900 !important;
@@ -274,22 +278,49 @@ body {
     border: 2px solid #D9D9D9;
 }
 
-.page-title {
-    margin-left: 10px !important;
-    color: #404040;
-    font-size: 36px !important;
-    font-weight: lighter !important;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    letter-spacing: 3px !important;
-}
-
 .sweet-alert {
     background-color: #FBFBFB;
 }
 
+.row {
+    transform: translateY(-.5%);
+}
+
+.col-3 {
+    letter-spacing: 1px;
+    padding: 0px;
+    margin-top: 90px !important;
+}
+
+.col-3.text-right {
+    margin-top: 140px !important;
+}
+
+.col-4 {
+    padding: 0 0 10px 30px;
+}
+
+.col-4.p-l-0.text-right {
+    padding-right: 0px;
+}
+
+.col-7.row.text-right {
+    padding-right: 12px;
+}
+
+.control-label {
+    vertical-align: middle;
+}
+
 .col-8 {
-    margin-top: 2px;
+    padding-top: 12.5px !important;
+}
+
+.col-8.p-r-0.p-l-0 {
+    margin-top: -1px !important;
+    padding-top: 1px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .col-md-8.form-group-custom.font-24 {
@@ -301,25 +332,17 @@ body {
     color: #34495e !important; 
 }
 
-.col-3 {
-    letter-spacing: 1px;
-    padding: 0px;
-    margin-top: 80px !important;
-}
-
-.col-3.text-right {
-    margin-top: 123px !important;
-}
-
-.col-4.p-l-0.text-right {
-    padding-right: 0px;
-}
-
-.col-7.row.text-right {
-    padding-right: 10px;
-}
-
 /*文字*/
+.page-title {
+    margin-left: 10px !important;
+    color: #2a2a2a;
+    font-size: 34px !important;
+    font-weight: lighter !important;
+    margin-top: 2vh;
+    margin-bottom: 0.92vh;
+    letter-spacing: 3px !important;
+}
+
 .col-md-4 {
     font-size: 14.34px;
 }
