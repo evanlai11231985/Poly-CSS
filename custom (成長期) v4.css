@@ -1,0 +1,301 @@
+body {
+    font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體';
+    padding-bottom: 0 !important;
+}
+
+/*修改*/
+.wrapper {
+    padding-top: 3vh;
+    line-height: 1.4;
+    letter-spacing: 0.05vw !important;
+    font-weight: 400;
+}
+
+
+/*btn移至新增區*/
+
+
+.slider.slider-horizontal {
+    width: 80%;
+    height: 20px;
+    margin-right: 60vw
+}
+
+.col-align {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.v-center {
+    position: relative;
+    top: 52%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*藍*/
+.bg-poly-blue {
+    background-color: #0070C0;
+}
+
+.text-poly-blue {
+    color: #0070C0;
+}
+
+.text-poly-blue {
+    color: #0070C0;
+}
+/*淺藍*/
+.bg-poly-lightblue {
+    background-color: #26B0F0;
+}
+
+.text-poly-lightblue {
+    color: #26B0F0;
+}
+
+.btn-lightblue, .btn-lightblue:hover, .btn-lightblue:focus, .btn-lightblue:active, .btn-lightblue.active, .btn-lightblue.focus, .btn-lightblue:active, .btn-lightblue:focus, .btn-lightblue:hover, .open > .dropdown-toggle.btn-lightblue {
+    border: 1px solid #26B0F0 !important;
+    background-color: #26B0F0;
+    color: white !important;
+}
+
+/*深灰藍*/
+.bg-poly-darkblue {
+    background-color: #34495E;
+}
+
+.text-poly-darkblue {
+    color: #34495E;
+}
+
+/*深灰藍2*/
+.bg-poly-darkblue2 {
+    background-color: #263646;
+}
+
+.text-poly-darkblue {
+    color: #263646;
+}
+
+/*灰*/ /*修改*/
+.bg-poly-gray {
+    background-color: #A6A6A6;
+}
+
+.text-poly-gray {
+    color: #A6A6A6;
+    font-size: 14px;
+}
+/*綠*/
+.bg-poly-green {
+    background-color: #1ABC9C;
+}
+
+.text-poly-green {
+    color: #1ABC9C;
+}
+/*紅*/
+.bg-poly-red {
+    background-color: #FF4B00;
+}
+
+.text-poly-red {
+    color: #FF4B00;
+}
+/*橘*/
+.bg-poly-orange {
+    background-color: #FFA900;
+}
+
+.text-poly-orange {
+    color: #FFA900;
+}
+/*深橘*/
+.bg-poly-deeporange {
+    background-color: #FF7C00;
+}
+
+.text-poly-deeporange {
+    color: #FF7C00;
+}
+
+.font-12 {
+    font-size: 12px !important;
+}
+
+.font-14 {
+    font-size: 14px !important;
+}
+
+.font-20 {
+    font-size: 20px !important;
+}
+
+.font-22 {
+    font-size: 22px !important;
+}
+
+/*修改*/
+.font-24 {
+    font-size: 22px !important;
+    line-height: 1.6;
+}
+
+.font-26 {
+    font-size: 26px !important;
+}
+
+/*修改*/
+.font-28 {
+    font-size: 28px !important;
+    padding: 18px !important;
+}
+
+.font-32 {
+    font-size: 32px !important;
+}
+
+.font-36 {
+    font-size: 36px !important;
+}
+
+.font-40 {
+    font-size: 40px !important;
+}
+
+/*修改TouchSpin的prefix css*/
+.bootstrap-touchspin .input-group-addon {
+    border: unset;
+    background-color: unset;
+}
+/*讀取畫面*/
+.globalMaskscreen {
+    /*display: none;*/
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 1001;
+}
+
+.pageProgressbar {
+    position: fixed;
+    width: 50%;
+    left: 25%;
+    top: 45%;
+    z-index: 1002;
+}
+
+/*以下新增*/
+.footer {
+    font-size: 12px;
+    color: #BFBFBF;
+}
+
+.form-control {
+    margin-top: 2px;
+    height: 30px;
+    border: 1px solid #D9D9D9;
+    text-align: right;
+    border-radius: 3px !important;
+}
+
+.portlet {
+    margin-top: 2vh;
+}
+
+.portlet .portlet-body {
+    background-color: #fbfbfb;
+    padding: 15px 25px;
+}
+
+.portlet .portlet-heading {
+    font-size: 15px;
+    letter-spacing: 6px;
+}
+
+.btn, .btn:hover {
+    font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體';
+    font-weight: lighter;
+    color: #BFBFBF !important;
+    font-size: 18px !important;
+    margin: -1% 12% !important;
+    width: 78%;
+    box-shadow: 0px 0px;
+    border: 2px solid #BFBFBF !important;
+    background-color: transparent;
+}
+
+.btn-warning, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open > .dropdown-toggle.btn-warning {
+    font-size: 21px !important;
+    font-weight: lighter !important;
+    color: #fff !important;
+    letter-spacing: -2px !important;
+    margin: 2% 12% !important;
+    width: 78%;
+    font-weight: lighter;
+    background-color: #FFA900 !important;
+    border: 2px solid #FFC000 !important;
+    border-bottom: 3px solid #DB7800 !important;
+    border-radius: 3px;
+    box-shadow: 0px 0px;
+}
+
+.btn-lg, .btn-default, .btn-default:hover {
+    font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體';
+    color: #404040 !important;
+    margin-top: 2vh !important;
+    border: 2px solid #EAEAEA;
+    border-bottom: 2px solid #BFBFBF;
+    background-color: transparent !important;
+}
+
+    .btn-lg:hover, .btn-default:hover {
+        color: #fff !important;
+        margin-top: 2vh !important;
+        border: 2px solid #FFC000;
+        border-bottom: 2px solid #DB7800;
+        background-color: #FFA900 !important;
+    }
+
+.page-title {
+    margin-left: 10px !important;
+    font-size: 30px !important;
+    font-weight: lighter !important;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    letter-spacing: 3px !important;
+}
+
+.sweet-alert {
+    background-color: #FBFBFB;
+}
+
+.col-md-8.form-group-custom.font-24 {
+    margin-top: 14px;
+}
+
+.col-md-12.text-center.font-24 {
+    font-size: 18px !important;
+    color: #34495e !important; 
+}
+
+.col-3 {
+    letter-spacing: 1px;
+    padding: 0px;
+}
+
+/*文字*/
+.col-md-4 {
+    font-size: 14.34px;
+}
+
+.text-center.font-24 {
+    font-size: 18px !important;
+    line-height: 1.75;
+}

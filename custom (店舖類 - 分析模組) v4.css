@@ -1,0 +1,382 @@
+body {
+    font-family: Roboto, 'Microsoft JhengHei', '微軟正黑體';
+}
+
+/*btn 移至新增區*/
+
+.wrapper {
+    padding-top: 1vh;
+}
+
+/*修改*/
+.slider.slider-horizontal {
+    width: 66.666%;
+    height: 20px;
+    margin-left: 2.5vw;
+    transform: translateY(-4.5px) !important;
+}
+
+.col-align {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.v-center {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*藍*/
+.bg-poly-blue {
+    background-color: #0070C0;
+}
+
+.text-poly-blue {
+    color: #0070C0;
+}
+
+.text-poly-blue {
+    color: #0070C0;
+}
+/*淺藍*/
+.bg-poly-lightblue {
+    background-color: #26B0F0;
+}
+
+.text-poly-lightblue {
+    color: #26B0F0;
+}
+
+.btn-lightblue, .btn-lightblue:hover, .btn-lightblue:focus, .btn-lightblue:active, .btn-lightblue.active, .btn-lightblue.focus, .btn-lightblue:active, .btn-lightblue:focus, .btn-lightblue:hover, .open > .dropdown-toggle.btn-lightblue {
+    border: 1px solid #26B0F0 !important;
+    background-color: #26B0F0;
+    color: white !important;
+}
+/*深灰藍*/
+.bg-poly-darkblue {
+    background-color: #34495E;
+}
+
+.text-poly-darkblue {
+    color: #34495E;
+}
+/*深灰藍2*/
+.bg-poly-darkblue2 {
+    background-color: #263646;
+}
+
+.text-poly-darkblue {
+    color: #263646;
+}
+/*灰*/
+.bg-poly-gray {
+    background-color: #A6A6A6;
+}
+
+.text-poly-gray {
+    color: #A6A6A6;
+}
+/*綠*/
+.bg-poly-green {
+    background-color: #1ABC9C;
+}
+
+.text-poly-green {
+    color: #1ABC9C;
+}
+/*紅*/
+.bg-poly-red {
+    background-color: #FF4B00;
+}
+
+.text-poly-red {
+    color: #FF4B00;
+}
+/*橘*/
+.bg-poly-orange {
+    background-color: #FFA900;
+}
+
+.text-poly-orange {
+    color: #FFA900;
+}
+/*深橘*/
+.bg-poly-deeporange {
+    background-color: #FF7C00;
+}
+
+.text-poly-deeporange {
+    color: #FF7C00;
+}
+
+.font-12 {
+    font-size: 12px !important;
+}
+
+.font-14 {
+    font-size: 14px !important;
+}
+
+/*修改*/
+.font-20 {
+    font-size: 16px !important;
+}
+
+.font-22 {
+    font-size: 22px !important;
+}
+
+/*修改*/
+.font-24 {
+    font-size: 16px !important;
+}
+
+.font-26 {
+    font-size: 26px !important;
+}
+
+.font-28 {
+    font-size: 28px !important;
+}
+
+.font-32 {
+    font-size: 32px !important;
+}
+
+/*修改*/
+.font-36 {
+    font-size: 28px !important;
+    font-weight: lighter !important;
+}
+
+.font-40 {
+    font-size: 40px !important;
+}
+
+/*修改TouchSpin的prefix css*/
+.bootstrap-touchspin .input-group-addon {
+    border: unset;
+    background-color: unset;
+}
+/*讀取畫面*/
+.globalMaskscreen {
+    /*display: none;*/
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.80);
+    z-index: 1001;
+}
+
+.pageProgressbar {
+    position: fixed;
+    width: 50%;
+    left: 25%;
+    top: 45%;
+    z-index: 1002;
+}
+
+
+/*以下新增*/
+.btn.btn-white.btn-custom, .btn.btn-white.btn-custom:hover, .btn.btn-white.btn-custom:focus, .btn.btn-white.btn-custom:active {
+    font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體';
+    padding: 20px !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    font-weight: lighter !important;
+    color: #BFBFBF !important;
+    box-shadow: 0px 0px !important;
+    border: 2px solid #C9C9C9 !important;
+    background-color: transparent !important;
+}
+
+.disable a, .btn-warning, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open > .dropdown-toggle.btn-warning {
+    margin-top: 125px;
+    font-weight: lighter !important;
+    color: #fff !important;
+    letter-spacing: -2px !important;
+    font-weight: lighter !important;
+    padding: 20px !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    background-color: #FFA900 !important;
+    border: 2px solid #FFC000 !important;
+    border-bottom: 3px solid #DB7800 !important;
+    border-radius: 3px;
+    box-shadow: 0px 0px !important;
+}
+
+.btn-lg, .btn-default, .btn-default:hover {
+    font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體';
+    color: #404040 !important;
+    margin-top: 2vh !important;
+    border: 2px solid #EAEAEA;
+    border-bottom: 2px solid #BFBFBF;
+    background-color: transparent !important;
+}
+
+    .btn-lg:hover, .btn-default:hover {
+        color: #fff !important;
+        margin-top: 2vh !important;
+        border: 2px solid #FFC000;
+        border-bottom: 2px solid #DB7800;
+        background-color: #FFA900 !important;
+    }
+
+.form-control.font-28.text-center {
+    font-size: 36px !important;
+    text-align: center !important;
+    font-weight: lighter !important;
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+    display: block !important;
+    width: 100%;
+    color: #000;
+    border-radius: 0px !important;
+}
+
+.form-control {
+    text-align: right !important;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #404040;
+    text-align: right !important;
+    height: 25px !important;
+    border: 1px solid #D9D9D9 !important;
+    border-radius: 3px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #F7F7F7;
+    color: #D9D9D9;
+}
+
+.portlet {
+    letter-spacing: .5px;
+    border-radius: 3px;
+    border: 1px solid #EAEAEA;
+    border-right: 2px solid #EAEAEA;
+    border-bottom: 2px solid #EAEAEA;
+}
+
+.portlet-heading.text-dark {
+    color: #404040 !important;
+    letter-spacing: 2px !important;
+
+}
+
+.font-13.text-white {
+    display: inline !important;
+    font-size: 12px !important;
+    letter-spacing: 1.8px !important;
+    padding: 0px !important;
+    padding-left: 10px !important;
+}
+
+.control-label.font-14.m-l-15.text-poly-orange, .control-label.font-18.m-l-5.text-poly-orange, .control-label.font-20.m-l-5.text-poly-orange, .font-20.text-poly-orange {
+    color:#FF7C00;
+}
+
+.control-label.font-14.text-poly-orange, .control-label.font-14.text-poly-red {
+    font-size: 15px !important;
+}
+
+.font-18.text-white {
+    font-size: 16px !important;
+    font-weight: lighter !important;
+    letter-spacing: 4px;
+    padding-left: 14px !important;
+}
+
+.font-20.text-white {
+    font-weight: lighter !important;
+    font-size: 16px !important;
+}
+
+.font-20.top {
+    line-height: 2.3;
+    font-size: 20px !important;
+}
+
+.font-20.major {
+    font-size: 19px !important;
+}
+
+.font-20.minor {
+    font-size: 14px !important;
+}
+
+.text-right.bottom {
+    padding-right: 0.8vw;
+    font-size: 12.5px;
+}
+
+.input-group-addon.bootstrap-touchspin-postfix {
+    font-size: 14px !important;
+}
+
+.col-md-4 {
+    line-height: 2 !important;
+}
+
+.col-md-5.text-right {
+    padding-right: 24px;
+}
+
+.m-t-20 {
+    margin-top: 40px !important;
+}
+
+.side-menu {
+    width: 172px !important;
+}
+
+.hrBold {
+    width: 90%;
+    background-color: #222 !important;
+    margin-bottom: 20px !important;
+}
+
+.content-page {
+    margin-left: 192px !important;
+    margin-top: 1.2vh;
+    transform:scale(0.966);
+}
+
+.bg-lightdark {
+    background-color: #F5F5F5 !important;
+}
+
+.slider.slider-horizontal .slider-track-high {
+    box-shadow: 0px 0px 0px 1px #DFDFDF;
+}
+
+.slider.slider-horizontal .slider-selection {
+    background-color: #FFA900;
+}
+
+.slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle {
+    border: 2px solid #D9D9D9;
+}
+
+.switchery-demo .switchery {
+    transform:scale(0.8);
+    border: 2px solid #DFDFDF !important;
+}
+
+.sweet-alert {
+    width: 500px;
+}
+
+.footer {
+    font-size: 12px;
+    color: #BFBFBF;
+}

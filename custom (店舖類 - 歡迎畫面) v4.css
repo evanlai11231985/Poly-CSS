@@ -1,0 +1,235 @@
+body {
+    font-family: Roboto, 'Microsoft JhengHei', 'å¾®è»Ÿæ­£é»‘é«”';
+    line-height: 2;
+}
+
+.wrapper {
+    margin-top: -25px;
+    padding-top: 0px;
+}
+
+.slider.slider-horizontal {
+    width: 100%;
+    height: 20px;
+}
+
+.col-align {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.v-center {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/*è—*/
+.bg-poly-blue {
+    background-color: #0070C0;
+}
+
+.text-poly-blue {
+    color: #0070C0;
+}
+
+.text-poly-blue {
+    color: #0070C0;
+}
+/*æ·ºè—*/
+.bg-poly-lightblue {
+    background-color: #26B0F0;
+}
+
+.text-poly-lightblue {
+    color: #26B0F0;
+}
+
+.btn-lightblue, .btn-lightblue:hover, .btn-lightblue:focus, .btn-lightblue:active, .btn-lightblue.active, .btn-lightblue.focus, .btn-lightblue:active, .btn-lightblue:focus, .btn-lightblue:hover, .open > .dropdown-toggle.btn-lightblue {
+    border: 1px solid #26B0F0 !important;
+    background-color: #26B0F0;
+    color: white !important;
+}
+/*æ·±ç°è—*/
+.bg-poly-darkblue {
+    background-color: #34495E;
+}
+
+.text-poly-darkblue {
+    color: #34495E;
+}
+/*æ·±ç°è—2*/
+.bg-poly-darkblue2 {
+    background-color: #263646;
+}
+
+.text-poly-darkblue {
+    color: #263646;
+}
+/*ç°*/
+.bg-poly-gray {
+    background-color: #A6A6A6;
+}
+
+.text-poly-gray {
+    color: #A6A6A6;
+}
+/*ç¶ */
+.bg-poly-green {
+    background-color: #1ABC9C;
+}
+
+.text-poly-green {
+    color: #1ABC9C;
+}
+/*ç´…*/
+.bg-poly-red {
+    background-color: #FF4B00;
+}
+
+.text-poly-red {
+    color: #FF4B00;
+}
+/*æ©˜*/
+.bg-poly-orange {
+    background-color: #FFA900;
+}
+
+.text-poly-orange {
+    color: #FFA900;
+}
+/*æ·±æ©˜*/
+.bg-poly-deeporange {
+    background-color: #FF7C00;
+}
+
+.text-poly-deeporange {
+    color: #FF7C00;
+}
+
+.font-12 {
+    font-size: 12px !important;
+}
+
+.font-14 {
+    font-size: 14px !important;
+}
+
+.font-20 {
+    font-size: 20px !important;
+}
+
+.font-22 {
+    font-size: 22px !important;
+}
+
+.font-24 {
+    font-size: 24px !important;
+}
+
+.font-26 {
+    font-size: 26px !important;
+}
+
+.font-28 {
+    font-size: 28px !important;
+}
+
+.font-32 {
+    font-size: 32px !important;
+}
+
+.font-36 {
+    font-size: 36px !important;
+}
+
+.font-40 {
+    font-size: 40px !important;
+    padding-left: 1vw;
+}
+
+/*ä¿®æ”¹TouchSpinçš„prefix css*/
+.bootstrap-touchspin .input-group-addon {
+    border: unset;
+    background-color: unset;
+}
+/*è®€å–ç•«é¢*/
+.globalMaskscreen {
+    /*display: none;*/
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF(0, 0, 0, 1);
+    z-index: 1001;
+}
+
+.pageProgressbar {
+    position: fixed;
+    width: 50%;
+    left: 25%;
+    top: 45%;
+    z-index: 1002;
+}
+
+.btn-warning, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open > .dropdown-toggle.btn-warning {
+    font-family: inherit;
+    font-size: 21px !important;
+    font-weight: lighter !important;
+    color: #fff !important;
+    letter-spacing: -1px !important;
+    font-weight: lighter;
+    background-color: #FFA900 !important;
+    border: 2px solid #FFC000 !important;
+    border-bottom: 3px solid #DB7800 !important;
+    border-radius: 3px;
+    box-shadow: 0px 0px;
+}
+
+.portlet-body, .portlet-heading {
+    background-color: #fbfbfb !important;
+    border-left: 3px solid #FFF;
+    border-right: 3px solid #D9D9D9;
+}
+
+.portlet-body {
+    border-bottom: 3px solid #D9D9D9 !important;
+}
+
+.portlet-heading {
+     border-top: 3px solid #FFF;
+}
+
+div.bg-poly-orange {
+     background-color: #FFC000;
+     border-left: 3px solid #FFD1A8;
+     border-top: 3px solid #FFD1A8;
+     border-bottom: 3px solid #FCA902;
+     border-right: 3px solid #DB6800;
+}
+
+.footer {
+    font-size: 12px;
+    color: #BFBFBF;
+}
+
+.col-md-6 {
+    padding: 10vh;
+}
+
+.b, strong {
+    letter-spacing: 2px;
+}
+
+.fixed-left {
+    padding: 0px !important;
+}
+
+p {
+    line-height: 1.5;
+    margin: auto;
+}
