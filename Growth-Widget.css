@@ -87,7 +87,7 @@ body {
 
 .text-poly-gray {
     color: #A6A6A6;
-    font-size: 16px;
+    font-size: 15px;
 }
 /*綠*/
 .bg-poly-green {
@@ -288,6 +288,11 @@ body {
 .col-3 {
     letter-spacing: 1px;
     padding: 0px;
+    margin-top: 70px;
+}
+
+.col.3.text-right {
+    margin-top: 110px !important;
 }
 
 /*文字*/
@@ -298,4 +303,9 @@ body {
 .text-center.font-24 {
     font-size: 18px !important;
     line-height: 1.75;
+}
+
+.text-primary {
+    font-size: 15px !important;
+    color: #FF4B00 !important;
 }
