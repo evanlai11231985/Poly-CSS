@@ -262,6 +262,18 @@ body {
         background-color: #FFA900 !important;
     }
 
+.slider.slider-horizontal .slider-track-high {
+    box-shadow: 0px 0px 0px 1px #DFDFDF;
+}
+
+.slider.slider-horizontal .slider-selection {
+    background-color: #FFA900;
+}
+
+.slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle {
+    border: 2px solid #D9D9D9;
+}
+
 .page-title {
     margin-left: 10px !important;
     color: #404040;
@@ -299,6 +311,14 @@ body {
     margin-top: 123px !important;
 }
 
+.col-4.p-l-0.text-right {
+    padding-right: 0px;
+}
+
+.col-7.row.text-right {
+    padding-right: 10px;
+}
+
 /*文字*/
 .col-md-4 {
     font-size: 14.34px;
@@ -312,4 +332,8 @@ body {
 .text-primary {
     font-size: 15px !important;
     color: #FF4B00 !important;
+}
+
+.control-label.font-22 {
+    letter-spacing: 1px;
 }
