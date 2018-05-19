@@ -7,7 +7,7 @@ html {
 body {
     background-color: #F2F2F2;
     font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體';
-    font-size: 16.4px;
+    font-size: 16px;
 }
 
 
@@ -341,7 +341,7 @@ body {
 
 .col-3 {
     line-height: 1.6;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     padding: 0px;
     margin-top: 90px !important;
 }
@@ -368,7 +368,7 @@ body {
 }
 
 .col-8 {
-    padding-top: 12.5px !important;
+    padding-top: 12px !important;
 }
 
 .col-8.p-r-0.p-l-0 {
@@ -393,23 +393,23 @@ body {
     font-size: 33px !important;
     font-weight: lighter !important;
     margin-top: 2vh;
-    margin-bottom: 0.92vh;
+    margin-bottom: 1vh;
     letter-spacing: 3.6px !important;
 }
 
 .col-md-4 {
-    font-size: 14.34px;
+    font-size: 14px;
 }
 
 .col-md-12.text-center.font-24 {
-    font-size: 18px !important;
+    font-size: 19px !important;
     color: #34495e;
 }
 
 .text-center.font-24 {
-    font-size: 19.2px !important;
+    font-size: 20px !important;
     color: #34495e;
-    line-height: 1.75;
+    line-height: 1.92;
 }
 
 .text-primary {
