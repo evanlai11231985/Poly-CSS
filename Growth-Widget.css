@@ -1,17 +1,69 @@
-body {
-    font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體';
-    padding-bottom: 0 !important;
-    font-size: 14.75px;
-    height: 100vh;
-    background-color: #F2F2F2 !important;
+/*修改*/
+html {
+    background-color: inherit;
 }
 
 /*修改*/
+body {
+    background-color: #F2F2F2;
+    font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體';
+    font-size: 16.4px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+}
+
+
+/*修改*/
 .wrapper {
-    padding-top: 1.25vh;
+    padding-top: 1.2vh;
     line-height: 1.4;
     letter-spacing: 0.05vw !important;
-    font-weight: 400;
+    font-weight: lighter;
+    width: 1366px;
+    height: 100vh;
+    transform-origin: 0% 0%; 
+}
+
+@media (min-width: 1280px) {
+    .wrapper {
+      transform: scale(.94);
+    }
+}
+
+@media (min-width: 1366px) {
+    .wrapper {
+      transform: scale(1);
+    }
+}
+
+@media (min-width: 1440px) {
+    .wrapper {
+      transform: scale(1.04);
+    }
+}
+
+@media (min-width: 1600px) {
+    .wrapper {
+      transform: scale(1.17);
+    }
+}
+
+@media (min-width: 1680px) {
+    .wrapper {
+      transform: scale(1.23);
+    }
+}
+
+@media (min-width: 1920px) {
+    .wrapper {
+      transform: scale(1.41);
+    }
+}
+
+@media (min-width: 2560px) {
+    .wrapper {
+      transform: scale(1.88);
+    }
 }
 
 
@@ -209,11 +261,14 @@ body {
 }
 
 .portlet {
+    line-height: 1.5;
     margin-top: 2vh;
+    margin-bottom: 3vh;
     box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.2) !important;
 }
 
 .portlet .portlet-heading {
+    letter-spacing: 1px;
     font-size: 20px;
 }
 
@@ -227,7 +282,7 @@ body {
     font-weight: lighter;
     color: #BFBFBF !important;
     font-size: 18px !important;
-    margin: -1% 12% !important;
+    margin: 0% 12% !important;
     width: 78%;
     box-shadow: 0px 0px;
     border: 2px solid #BFBFBF !important;
@@ -239,7 +294,7 @@ body {
     font-weight: lighter !important;
     color: #fff !important;
     letter-spacing: -2px !important;
-    margin: 0% 12% !important;
+    margin: 2% 12% !important;
     width: 78%;
     font-weight: lighter;
     background-color: #FFA900 !important;
@@ -287,13 +342,15 @@ body {
 }
 
 .col-3 {
-    letter-spacing: 1px;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
     padding: 0px;
     margin-top: 90px !important;
 }
 
 .col-3.text-right {
-    margin-top: 140px !important;
+    line-height: 1.75;
+    margin-top: 136px !important;
 }
 
 .col-4 {
@@ -324,31 +381,36 @@ body {
 }
 
 .col-md-8.form-group-custom.font-24 {
-    margin-top: 14px;
+    margin-top: 18px;
 }
 
-.col-md-12.text-center.font-24 {
-    font-size: 18px !important;
-    color: #34495e !important; 
+.form-group-custom .bar {
+    border-bottom: 2px solid #D9D9D9; 
 }
 
 /*文字*/
 .page-title {
     margin-left: 10px !important;
-    color: #2a2a2a;
-    font-size: 34px !important;
+    color: #34495e;
+    font-size: 33px !important;
     font-weight: lighter !important;
     margin-top: 2vh;
     margin-bottom: 0.92vh;
-    letter-spacing: 3px !important;
+    letter-spacing: 3.6px !important;
 }
 
 .col-md-4 {
     font-size: 14.34px;
 }
 
-.text-center.font-24 {
+.col-md-12.text-center.font-24 {
     font-size: 18px !important;
+    color: #34495e;
+}
+
+.text-center.font-24 {
+    font-size: 19.2px !important;
+    color: #34495e;
     line-height: 1.75;
 }
 
@@ -359,4 +421,12 @@ body {
 
 .control-label.font-22 {
     letter-spacing: 1px;
+}
+
+.form-group-custom .control-label {
+    text-align: center !important;
+    font-weight: lighter !important;
+    font-style: italic;
+    color: #C9C9C9;
+    margin-top: 3.6px;
 }
