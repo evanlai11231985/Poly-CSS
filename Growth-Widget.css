@@ -15,51 +15,64 @@ body {
 .wrapper {
     padding-top: 1.2vh;
     line-height: 1.4;
-    letter-spacing: 0.05vw !important;
+    letter-spacing: 0.036vw !important;
     font-weight: lighter;
-    width: 1366px;
-    height: 100vh;
+    height: 100vh !important;
     transform-origin: 0% 0%; 
+}
+
+@media (min-width: 1024px) {
+    .wrapper {
+      width: 1280px;
+      transform: scale(.8);
+    }
 }
 
 @media (min-width: 1280px) {
     .wrapper {
+      width: 1366px;
       transform: scale(.94);
     }
 }
 
 @media (min-width: 1366px) {
     .wrapper {
+      width: 1366px;
       transform: scale(1);
     }
 }
 
 @media (min-width: 1440px) {
     .wrapper {
+      width: 1366px;
       transform: scale(1.04);
     }
 }
 
 @media (min-width: 1600px) {
     .wrapper {
+      width: 1366px;
       transform: scale(1.17);
     }
 }
 
 @media (min-width: 1680px) {
     .wrapper {
+      width: 1366px;
       transform: scale(1.23);
     }
 }
 
 @media (min-width: 1920px) {
     .wrapper {
+      width: 1366px;
       transform: scale(1.41);
     }
 }
 
 @media (min-width: 2560px) {
     .wrapper {
+      width: 1366px;
       transform: scale(1.88);
     }
 }
@@ -341,7 +354,7 @@ body {
 
 .col-3 {
     line-height: 1.6;
-    letter-spacing: 1px;
+    letter-spacing: 0.88px;
     padding: 0px;
     margin-top: 90px !important;
 }
