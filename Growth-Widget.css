@@ -348,10 +348,6 @@ body {
     background-color: #FBFBFB;
 }
 
-.row {
-    transform: translateY(-.5%);
-}
-
 .col-3 {
     line-height: 1.6;
     letter-spacing: 0.88px;
