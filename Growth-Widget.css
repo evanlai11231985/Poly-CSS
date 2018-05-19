@@ -10,7 +10,6 @@ body {
     font-size: 16px;
 }
 
-
 /*修改*/
 .wrapper {
     padding-top: 1.2vh;
@@ -399,11 +398,11 @@ body {
 .page-title {
     margin-left: 10px !important;
     color: #34495e;
-    font-size: 33px !important;
+    font-size: 36px !important;
     font-weight: lighter !important;
     margin-top: 2vh;
     margin-bottom: 1vh;
-    letter-spacing: 3.6px !important;
+    letter-spacing: 6px !important;
 }
 
 .col-md-4 {
