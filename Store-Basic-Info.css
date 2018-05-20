@@ -254,8 +254,7 @@ body {
 
 /*以下新增*/
 .progress.progress-lg .progress-bar {
-    font-size: 16px;
-    letter-spacing: 4px;
+    font-size: 14px;
 }
     .progress.progress-lg {
         height: 24px !important;
@@ -453,7 +452,7 @@ hr {
 }
 
 .slider.slider-horizontal .slider-track-high {
-    box-shadow: 0px 0px 0px 2px #DFDFDF;
+    box-shadow: 0px 0px 0px 1px #DFDFDF;
 }
 
 .slider.slider-horizontal .slider-selection {
