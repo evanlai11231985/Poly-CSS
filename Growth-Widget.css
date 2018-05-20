@@ -8,17 +8,22 @@ body {
     background-color: #F2F2F2;
     font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體';
     font-size: 16px;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
 }
 
 /*修改*/
 .wrapper {
-    padding-top: 1.2vh;
+    padding-top: 2vh !important;
     line-height: 1.4;
     letter-spacing: 0.036vw !important;
     font-weight: lighter;
+}
+
+
+/*縮放*/
+.wrapper {
+    transform-origin: 0% 0%;
     height: 100vh !important;
-    transform-origin: 0% 0%; 
 }
 
 @media (min-width: 1024px) {
@@ -73,7 +78,7 @@ body {
 @media (min-width: 1920px) {
     .wrapper {
       width: 1366px;
-      transform: scale(1.41);
+      transform: scale(1.4);
     }
 }
 
@@ -272,10 +277,10 @@ body {
     background: transparent !important;
 }
 
-.form-control {
+form-control {
     margin-top: 2px;
     height: 30px;
-    border: 1px solid #D9D9D9;
+    border: 1px solid #DFDFDF;
     text-align: right;
     border-radius: 3px !important;
 }
@@ -292,7 +297,7 @@ body {
 }
 
 .portlet .portlet-heading {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 20px;
 }
 
@@ -326,7 +331,6 @@ body {
     border-radius: 3px !important;
     box-shadow: 0px 0px;
 }
-
     .btn-warning:hover {
         font-size: 21px !important;
         font-weight: lighter !important;
@@ -338,7 +342,8 @@ body {
         background-color: #FFA900 !important;
         border: 3px solid #FFC700 !important;
 	border-bottom: 3px solid #DB7800 !important;
-	transform: translateY(2px);  
+	transform: translateY(2px);
+	transition: transform 10ms, border 10ms, margin 10ms;
     }
 
 .btn-lg, .btn-default, .btn-default:hover {
@@ -427,7 +432,7 @@ body {
     color: #34495e;
     font-size: 36px !important;
     font-weight: lighter !important;
-    margin-top: 2vh;
+    margin-top: 2.5vh;
     margin-bottom: 1vh;
     letter-spacing: 6px !important;
 }
@@ -461,5 +466,20 @@ body {
     font-weight: lighter !important;
     font-style: italic;
     color: #C9C9C9;
-    margin-top: 3.6px;
+    margin-top: 3px;
+    margin-left: 12px;
+}
+
+#EstimatedFinancingAmountText {
+    font-weight: bold;
+    font-size: 26px !important;
+}
+
+#RoyaltyRateText, #RoyaltyReductionRateText {
+    font-weight: bold !important;
+}
+
+#DailyAverageBurdenText {
+    padding-right: 4px;
+    font-size: 20px !important;
 }
