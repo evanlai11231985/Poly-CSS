@@ -285,15 +285,16 @@ body {
       content: '© 2018 和和資創有限公司 權利所有';
     }
 
-form-control {
+.form-control {
     margin-top: 2px;
     height: 30px;
-    border: 1px solid #DFDFDF;
+    border: 1.5px solid #DFDFDF;
     text-align: right;
-    border-radius: 3px !important;
+    border-radius: 6px !important;
 }
 
 .form-control:focus {
+    border-width: 1.5px;
     font-weight: bold;
 }
 
@@ -323,6 +324,7 @@ form-control {
     width: 78%;
     box-shadow: 0px 0px;
     border: 2px solid #BFBFBF !important;
+    border-radius: 12px !important;
     background-color: transparent !important;
 }
 
@@ -336,7 +338,7 @@ form-control {
     background-color: #FFA900 !important;
     border: 3px solid #FFC700 !important;
     border-bottom: 5px solid #DB7800 !important;
-    border-radius: 3px !important;
+    border-radius: 12px !important;
     box-shadow: 0px 0px;
 }
     .btn-warning:hover {
@@ -360,6 +362,7 @@ form-control {
     margin-top: 2vh !important;
     border: 2px solid #EAEAEA;
     border-bottom: 2px solid #BFBFBF;
+    border-radius: 12px !important;
     background-color: transparent !important;
 }
 
