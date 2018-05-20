@@ -264,7 +264,7 @@ body {
     letter-spacing: -2px !important;
     background-color: #FFA900 !important;
     border: 3px solid #FFC700 !important;
-    border-bottom: 5px solid #DB7800 !important;
+    border-bottom: 6px solid #DB7800 !important;
     border-radius: 12px !important;
     box-shadow: 0px 0px;
 }
@@ -273,12 +273,12 @@ body {
         font-weight: lighter !important;
         color: #fff !important;
         letter-spacing: -2px !important;
-        margin-bottom: 2px !important;
+        margin-bottom: 3px !important;
         background-color: #FFA900 !important;
         border: 3px solid #FFC700 !important;
 	border-bottom: 3px solid #DB7800 !important;
 	box-shadow: 0px 0px;
-	transform: translateY(2px);
+	transform: translateY(3px);
 	transition: transform 10ms, border 10ms, margin 10ms;
     }
 
