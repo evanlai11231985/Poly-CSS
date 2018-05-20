@@ -8,6 +8,7 @@ body {
     padding-top: 1vh;
 }
 
+
 /*修改*/
 .slider.slider-horizontal {
     width: 66.666%;
@@ -51,11 +52,13 @@ body {
     color: #26B0F0;
 }
 
-.btn-lightblue, .btn-lightblue:hover, .btn-lightblue:focus, .btn-lightblue:active, .btn-lightblue.active, .btn-lightblue.focus, .btn-lightblue:active, .btn-lightblue:focus, .btn-lightblue:hover, .open > .dropdown-toggle.btn-lightblue {
+/*刪除*/
+/*.btn-lightblue, .btn-lightblue:hover, .btn-lightblue:focus, .btn-lightblue:active, .btn-lightblue.active, .btn-lightblue.focus, .btn-lightblue:active, .btn-lightblue:focus, .btn-lightblue:hover, .open > .dropdown-toggle.btn-lightblue {
     border: 1px solid #26B0F0 !important;
     background-color: #26B0F0;
     color: white !important;
-}
+}*/
+
 /*深灰藍*/
 .bg-poly-darkblue {
     background-color: #34495E;
@@ -275,7 +278,6 @@ body {
 
 .font-13.text-white {
     display: inline !important;
-    font-size: 12px !important;
     letter-spacing: 1.8px !important;
     padding: 0px !important;
     padding-left: 10px !important;
@@ -290,15 +292,15 @@ body {
 }
 
 .font-18.text-white {
-    font-size: 16px !important;
+    font-size: 17px !important;
     font-weight: lighter !important;
     letter-spacing: 4px;
-    padding-left: 14px !important;
+    padding-left: 7px !important;
 }
 
 .font-20.text-white {
     font-weight: lighter !important;
-    font-size: 16px !important;
+    font-size: 18px !important;
 }
 
 .font-20.top {
@@ -336,7 +338,7 @@ body {
 }
 
 .side-menu {
-    width: 172px !important;
+    width: 192px !important;
 }
 
 .hrBold {

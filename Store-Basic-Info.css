@@ -274,7 +274,6 @@ img {
         transform: translateY(-48px);
     }
 
-
 .btn.btn-white.btn-custom, .btn.btn-white.btn-custom:hover, .btn.btn-white.btn-custom:focus, .btn.btn-white.btn-custom:active {
     font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體';
     padding: 20px !important;
@@ -368,6 +367,7 @@ img {
     border-right: 4px solid #DFDFDF;
     border-bottom: 4px solid #DFDFDF;
     line-height: 2;
+    padding-top: 6.9px;
 }
 
 .text-poly-gray.font-36 {
@@ -408,6 +408,10 @@ hr {
 
 .body {
     transform: scale(.92);
+}
+
+.content.clearfix {
+    transform: scale(1.05);
 }
 
 .actions.clearfix, .ul {
