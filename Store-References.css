@@ -4,6 +4,16 @@ body {
     padding-bottom: 0px !important;
 }
 
+.content-page {
+    margin-left: 192px !important;
+    margin-top: 1.2vh;
+    transform: scale(0.966);
+}
+
+.side-menu {
+    width: 217px !important;
+}
+
 /*btn 移至新增區*/
 
 .wrapper {
@@ -353,20 +363,10 @@ body {
     margin-top: 48px !important;
 }
 
-.side-menu {
-    width: 217px !important;
-}
-
 .hrBold {
     width: 90%;
     background-color: #222 !important;
     margin-bottom: 20px !important;
-}
-
-.content-page {
-    margin-left: 192px !important;
-    margin-top: 1.2vh;
-    transform: scale(0.966);
 }
 
 .bg-lightdark {
