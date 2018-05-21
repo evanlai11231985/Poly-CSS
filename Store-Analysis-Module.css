@@ -1,13 +1,22 @@
+/*修改*/
 body {
     font-family: Roboto, 'Microsoft JhengHei', '微軟正黑體';
+}
+
+.content-page {
+    margin-left: 192px;
+}
+
+.side-menu {
+    width: 192px;
+    overflow: scroll;
 }
 
 /*btn 移至新增區*/
 
 .wrapper {
-    padding-top: 1vh;
+    padding-top: 2.5vh;
 }
-
 
 /*修改*/
 .slider.slider-horizontal {
@@ -200,7 +209,7 @@ body {
 }
 
 .disable a, .btn-warning, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open > .dropdown-toggle.btn-warning {
-    margin-top: 125px;
+    margin-top: 116px;
     font-weight: lighter !important;
     color: #fff !important;
     letter-spacing: -2px !important;
@@ -209,9 +218,11 @@ body {
     padding-top: 6px !important;
     padding-bottom: 6px !important;
     background-color: #FFA900 !important;
-    border: 2px solid #FFC000 !important;
+    border: 2px solid #FFC700 !important;
+    border-left: 2px solid #FF9000 !important;
+    border-right: 2px solid #FF9000 !important;
     border-bottom: 3px solid #DB7800 !important;
-    border-radius: 3px;
+    border-radius: 24px;
     box-shadow: 0px 0px !important;
 }
 
@@ -337,20 +348,10 @@ body {
     margin-top: 40px !important;
 }
 
-.side-menu {
-    width: 192px !important;
-}
-
 .hrBold {
     width: 90%;
     background-color: #222 !important;
     margin-bottom: 20px !important;
-}
-
-.content-page {
-    margin-left: 192px !important;
-    margin-top: 1.2vh;
-    transform:scale(0.966);
 }
 
 .bg-lightdark {
@@ -379,6 +380,16 @@ body {
 }
 
 .footer {
-    font-size: 12px;
-    color: #BFBFBF;
+    text-align: center !important;
+    font-size: 14px;
+    color: #A6A6A6;
+    background: transparent !important;
 }
+
+    .col-12.text-center {
+      display: none;
+    }
+    .footer:after {
+      content: '© 2018 和和資創有限公司 權利所有';
+      white-space: pre;
+    }

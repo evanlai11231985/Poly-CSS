@@ -1,5 +1,6 @@
 body {
     font-family: Roboto, 'Microsoft JhengHei', '微軟正黑體';
+    padding-bottom: 0px;
 }
 
 /*btn 移至新增區*/
@@ -10,73 +11,72 @@ body {
 
 /*縮放*/
 .wrapper {
-    height: 100vh;
+    min-height: 100vh;
     transform-origin: 0% 0%; 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 974px) {
     .wrapper {
       width: 1280px;
       transform: scale(.8);
     }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1102px) {
     .wrapper {
       width: 1280px;
       transform: scale(.9);
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1230px) {
     .wrapper {
       width: 1280;
       transform: scale(1);
     }
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1316px) {
     .wrapper {
       width: 1280px;
       transform: scale(1.067);
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1390px) {
     .wrapper {
       width: 1280px;
       transform: scale(1.125);
     }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1550px) {
     .wrapper {
       width: 1280x;
       transform: scale(1.25);
     }
 }
 
-@media (min-width: 1680px) {
+@media (min-width: 1630px) {
     .wrapper {
       width: 1280px;
       transform: scale(1.3125);
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1870px) {
     .wrapper {
       width: 1280px;
       transform: scale(1.5);
     }
 }
 
-@media (min-width: 2560px) {
+@media (min-width: 2510px) {
     .wrapper {
       width: 1280px;
       transform: scale(2);
     }
 }
-
 
 /*修改*/
 .slider.slider-horizontal {
@@ -265,13 +265,14 @@ body {
 }
 
 img {
-    height: 220px !important;
+    image-rendering: crisp-edges;
+    height: 200px !important;
 }
     #cheerL {
-        transform: translateY(-36px);
+        transform: translateY(-25px);
     }
     #cheerR {
-        transform: translateY(-48px);
+        transform: translateY(-40px);
     }
 
 .btn.btn-white.btn-custom, .btn.btn-white.btn-custom:hover, .btn.btn-white.btn-custom:focus, .btn.btn-white.btn-custom:active {
@@ -279,7 +280,7 @@ img {
     padding: 20px !important;
     padding-top: 6px !important;
     padding-bottom: 6px !important;
-    font-weight: lighter !important;
+    font-weight: 400 !important;
     color: #BFBFBF !important;
     box-shadow: 0px 0px !important;
     border: 2px solid #C9C9C9 !important;
@@ -287,10 +288,9 @@ img {
 }
 
 .disable a, .btn-warning, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open > .dropdown-toggle.btn-warning {
-    font-weight: lighter !important;
     color: #fff !important;
     letter-spacing: -2px !important;
-    font-weight: lighter !important;
+    font-weight: 400 !important;
     padding: 20px !important;
     padding-top: 6px !important;
     padding-bottom: 6px !important;
@@ -336,23 +336,25 @@ img {
 
 .form-control {
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: 400;
     color: #404040;
     text-align: right !important;
     height: 30px !important;
-    border: 1px solid #D9D9D9 !important;
+    border: 2px solid #D9D9D9 !important;
     border-radius: 3px !important;
 }
 
     .form-control:disabled, .form-control[readonly] {
         background-color: #F7F7F7;
-        color: #D9D9D9;
+        color: #DFDFDF;
     }
 
     .form-control:focus {
-        border-color: #C9C9C9 !important;
+        border: 2px solid #C9C9C9 !important;
         font-weight: bold;
+        box-shadow: 0px 1px 4px 0 rgba(0, 0, 0, 0.1);
     }
+
 
 .form-group.m-t-40 {
     margin-top: 36px !important;
@@ -367,11 +369,10 @@ img {
     border-right: 4px solid #DFDFDF;
     border-bottom: 4px solid #DFDFDF;
     line-height: 2;
-    padding-top: 6.9px;
 }
 
 .text-poly-gray.font-36 {
-    font-weight: lighter;
+    font-weight: 400;
     color: #BFBFBF;
     letter-spacing: 10px;
 }
@@ -403,15 +404,6 @@ img {
 hr {
     margin-top: .75rem;
     border-top: 2.5px solid #F5F5F5;
-}
-
-
-.body {
-    transform: scale(.92);
-}
-
-.content.clearfix {
-    transform: scale(1.05);
 }
 
 .actions.clearfix, .ul {
@@ -456,7 +448,7 @@ hr {
 }
 
 .slider.slider-horizontal .slider-track-high {
-    box-shadow: 0px 0px 0px 1px #DFDFDF;
+    box-shadow: 0px 0px 0px 2px #DFDFDF;
 }
 
 .slider.slider-horizontal .slider-selection {
@@ -468,13 +460,13 @@ hr {
 }
 
 .control-label.font-16 {
-    font-weight: lighter;
+    font-weight: 400;
     color: #FFA900;
 }
 
 .switchery-demo .switchery {
     transform: scale(0.75);
-    border: 2px solid #DFDFDF !important;
+    border: 2px solid #D9D9D9 !important;
 }
 
 .footer {
@@ -489,4 +481,5 @@ hr {
     }
     .footer:after {
       content: '© 2018 和和資創有限公司 權利所有';
+      white-space: pre;
     }

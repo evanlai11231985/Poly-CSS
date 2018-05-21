@@ -2,78 +2,77 @@
 body {
     font-family: Roboto, 'Microsoft JhengHei', '微軟正黑體';
     line-height: 2;
-    padding-bottom: 80px;
-
 }
 
 .wrapper {
-    margin-top: -50px;
+    margin-top: -40px;
     padding-top: 0px;
+    padding-bottom: 5%;
 }
 
 /*縮放*/
 .wrapper {
     transform-origin: 0% 0%; 
-    height: 100vh !important;
+    min-height: 100vh;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 974px) {
     .wrapper {
       width: 1280px;
       transform: scale(.8);
     }
 }
 
-@media (min-width: 1152px) {
+@media (min-width: 1102px) {
     .wrapper {
       width: 1280px;
       transform: scale(.9);
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1230px) {
     .wrapper {
       width: 1280;
       transform: scale(1);
     }
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1316px) {
     .wrapper {
       width: 1280px;
       transform: scale(1.067);
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1390px) {
     .wrapper {
       width: 1440px;
       transform: scale(1);
     }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1550px) {
     .wrapper {
       width: 1366px;
       transform: scale(1.17);
     }
 }
 
-@media (min-width: 1680px) {
+@media (min-width: 1630px) {
     .wrapper {
       width: 1440px;
       transform: scale(1.167);
     }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1870px) {
     .wrapper {
       width: 1440px;
       transform: scale(1.333);
     }
 }
 
-@media (min-width: 2560px) {
+@media (min-width: 2510px) {
     .wrapper {
       width: 1600px;
       transform: scale(1.6);
@@ -260,33 +259,51 @@ body {
     margin-top: -20px;
 }
 
-.btn-warning, .btn-warning:hover {
+.btn-warning {
     font-size: 21px !important;
-    font-weight: lighter !important;
+    font-weight: 400 !important;
     color: #fff !important;
     letter-spacing: -2px !important;
     background-color: #FFA900 !important;
-    border: 2px solid #FFC700 !important;
-    border-bottom: 3px solid #DB7800 !important;
+    border: 0px none !important;
+    box-shadow: 0px 6px #DB7800 !important;
     border-radius: 3px !important;
-    box-shadow: 0px 0px;
+    transition: all 50ms linear;
+
 }
+    .btn-warning:hover {
+        font-weight: 400 !important;
+        color: #fff !important;
+        letter-spacing: -2px !important;
+        background-color: #FFA900 !important;
+        border: 0px none !important;
+	box-shadow: 0px 2px #DB7800 !important;
+	transform: translateY(4px);
+	transition: all 50ms linear;
+    }
 
 .btn-warning:active {
     box-shadow: inherit;
 }
 
+.portlet {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
 .portlet-body, .portlet-heading {
     background-color: #fbfbfb !important;
     border-left: 3px solid #FFF;
-    border-right: 3px solid #D9D9D9;
+    border-right: 3px solid #DFDFDF;
 }
 
 .portlet-body {
+    border-radius: 0px 0px 5px 5px;
     border-bottom: 3px solid #D9D9D9 !important;
 }
 
 .portlet-heading {
+     border-radius: 5px 5px 0px 0px;
      border-top: 3px solid #FFF;
 }
 
@@ -310,6 +327,7 @@ div.bg-poly-orange {
     }
     .footer:after {
       content: '© 2018 和和資創有限公司 權利所有';
+      white-space: pre;
     }
 
 .col-md-6 {
