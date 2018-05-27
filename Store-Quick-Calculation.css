@@ -1,12 +1,83 @@
 /*修改*/
 body {
     font-family: Roboto, 'Microsoft JhengHei', '微軟正黑體';
+    padding-bottom: 2% !important;
 }
+
+/*縮放*/
+.wrapper {
+    transform-origin: 0% 0%;
+    min-height: 100vh;
+}
+
+@media (min-width: 924px) {
+    .wrapper {
+      width: 1440px;
+      transform: scale(.72);
+    }
+}
+
+@media (min-width: 1102px) {
+    .wrapper {
+      width: 1440px;
+      transform: scale(.8);
+    }
+}
+
+@media (min-width: 1230px) {
+    .wrapper {
+      width: 1366px;
+      transform: scale(.94);
+    }
+}
+
+@media (min-width: 1316px) {
+    .wrapper {
+      width: 1440px;
+      transform: scale(.95);
+    }
+}
+
+@media (min-width: 1390px) {
+    .wrapper {
+      width: 1366px;
+      transform: scale(1.054);
+    }
+}
+
+@media (min-width: 1550px) {
+    .wrapper {
+      width: 1440px;
+      transform: scale(1.111);
+    }
+}
+
+@media (min-width: 1630px) {
+    .wrapper {
+      width: 1366px;
+      transform: scale(1.23);
+    }
+}
+
+@media (min-width: 1870px) {
+    .wrapper {
+      width: 1440px;
+      transform: scale(1.333);
+    }
+}
+
+@media (min-width: 2510px) {
+    .wrapper {
+      width: 1600px;
+      transform: scale(1.6);
+    }
+}
+
 
 /*btn 移至新增區*/
 
 .wrapper {
-    padding-top: 3.6vh;
+    padding-top: 1.2vh;
 }
 
 .slider.slider-horizontal {
@@ -75,11 +146,11 @@ body {
 
 /*綠*/
 .bg-poly-gray {
-    background-color: #A6A6A6;
+    background-color: #808080;
 }
 
 .text-poly-gray {
-    color: #A6A6A6;
+    color: #808080;
 }
 /*紅*/
 .bg-poly-green {
@@ -187,8 +258,9 @@ body {
     font-size: 18px !important;
     font-weight: lighter !important;
     color: #BFBFBF !important;
-    box-shadow: 0px 0px !important;
-    border: 2px solid #C9C9C9 !important;
+    box-shadow: 0px 0px;
+    border: 2px solid #BFBFBF !important;
+    border-radius: 24px !important;
     background-color: transparent !important;
 }
 
@@ -201,10 +273,11 @@ body {
     font-weight: lighter !important;
     color: #fff !important;
     background-color: #FFA900 !important;
-    border: 2px solid #FFC000 !important;
-    border-bottom: 3px solid #DB7800 !important;
-    border-radius: 3px;
-    box-shadow: 0px 0px;
+    border: 3px solid #FF9800 !important;
+    border-top: 3px solid #FFC700 !important;
+    border-bottom: 4px solid #DB7800 !important;
+    box-shadow: 0 0 6px #FF7800 !important;
+    border-radius: 48px !important;
 }
 
 /*區塊*/
@@ -339,10 +412,16 @@ p.control-label {
     letter-spacing: 5px;
 }
 
-.col-12.text-center.footer {
-    font-size: 12px !important;
-    color: #BFBFBF !important;
-    border:  0px solid !important;
-    background:  transparent;
+.footer {
     text-align: center !important;
+    font-size: 14px;
+    color: #A6A6A6;
+    background: transparent !important;
 }
+
+.col-12.text-center.footer {
+    display: none;
+}
+    .footer:after {
+      content: '© 2018 和和資創有限公司 權利所有';
+    }

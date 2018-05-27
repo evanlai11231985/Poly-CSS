@@ -32,7 +32,7 @@ body {
 
 @media (min-width: 1230px) {
     .wrapper {
-      width: 1280;
+      width: 1280px;
       transform: scale(1);
     }
 }
@@ -46,29 +46,29 @@ body {
 
 @media (min-width: 1390px) {
     .wrapper {
-      width: 1440px;
-      transform: scale(1);
+      width: 1280px;
+      transform: scale(1.125);
     }
 }
 
 @media (min-width: 1550px) {
     .wrapper {
-      width: 1366px;
-      transform: scale(1.17);
+      width: 1280px;
+      transform: scale(1.25);
     }
 }
 
 @media (min-width: 1630px) {
     .wrapper {
-      width: 1440px;
-      transform: scale(1.167);
+      width: 1366px;
+      transform: scale(1.23);
     }
 }
 
 @media (min-width: 1870px) {
     .wrapper {
-      width: 1440px;
-      transform: scale(1.333);
+      width: 1366px;
+      transform: scale(1.41);
     }
 }
 
@@ -149,11 +149,11 @@ body {
 }
 /*灰*/
 .bg-poly-gray {
-    background-color: #A6A6A6;
+    background-color: #808080;
 }
 
 .text-poly-gray {
-    color: #A6A6A6;
+    color: #808080;
 }
 /*綠*/
 .bg-poly-green {
@@ -265,21 +265,18 @@ body {
     color: #fff !important;
     letter-spacing: -2px !important;
     background-color: #FFA900 !important;
-    border: 0px none !important;
     box-shadow: 0px 6px #DB7800 !important;
     border-radius: 3px !important;
     transition: all 50ms linear;
-
 }
     .btn-warning:hover {
         font-weight: 400 !important;
         color: #fff !important;
         letter-spacing: -2px !important;
         background-color: #FFA900 !important;
-        border: 0px none !important;
-	box-shadow: 0px 2px #DB7800 !important;
-	transform: translateY(4px);
-	transition: all 50ms linear;
+    	box-shadow: 0px 2px #DB7800 !important;
+    	transform: translateY(4px);
+    	transition: all 50ms linear;
     }
 
 .btn-warning:active {

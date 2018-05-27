@@ -1,9 +1,102 @@
+/*修改*/
 body {
     font-family: Roboto, 'Microsoft JhengHei', '微軟正黑體';
+    font-size: 15px;
+    color: #34495e;
 }
 
 .wrapper {
-    padding-top: 1vh;
+    padding-top: 0vh;
+    overflow-x: scroll;
+}
+
+.content-page {
+    position: relative !important;
+    margin: 0px !important;
+    transform-origin: 0% 0% !important;
+    left: 0px !important;
+    top: 0px !important;
+}
+
+/*縮放*/
+@media (min-width: 974px) {
+    .content-page {
+        width: 200%;
+        transform: scale(.5875) !important;
+    }
+}
+
+@media (min-width: 1102px) {
+    .content-page {
+        width: 180%;
+        transform: scale(.64) !important;
+    }
+}
+
+@media (min-width: 1230px) {
+    .content-page {
+        max-width: 162%;
+        transform: scale(.7) !important;
+    }
+}
+
+@media (min-width: 1316px) and (min-height: 618px) {
+    .content-page {
+        max-width: 155%;
+        transform: scale(.666) !important;
+    }
+}
+
+@media (min-width: 1390px) {
+    .content-page {
+        max-width: 140%;
+        transform: scale(.8) !important;
+    }
+}
+
+@media (min-width: 1550px) {
+    .content-page {
+        max-width: 130%;
+        transform: scale(.8) !important;
+    }
+}
+
+@media (min-width: 1630px) {
+    .content-page {
+        max-width: 120%;
+        transform: scale(.95) !important;
+    }
+}
+
+@media (min-width: 1870px) {
+    .content-page {
+        max-width: 105%;
+        transform: scale(.97) !important;
+    }
+}
+
+@media (min-width: 1870px) and (min-height: 1050px) {
+    .content-page {
+        max-width: 105%;
+        min-height: 100vh;
+        transform: scale(1.08)  !important;
+    }
+}
+
+@media (min-width: 2510px) {
+    .content-page {
+        max-width: 80%;
+        min-height: 100vh;
+        transform: scale(1.33) !important;
+    }
+}
+
+@media (min-width: 2510px) and (min-height: 1450px) {
+    .content-page {
+        max-width: 80%;
+        min-height: 95vh;
+        transform: scale(1.433) !important;
+    }
 }
 
 /*btn 移至新增區*/
@@ -75,12 +168,15 @@ body {
 }
 /*灰*/
 .bg-poly-gray {
-    background-color: #A6A6A6;
+    background-color: #808080;
 }
 
+/*修改*/
 .text-poly-gray {
-    color: #A6A6A6;
+    color: #808080;
+    letter-spacing: 1px;
 }
+
 /*綠*/
 .bg-poly-green {
     background-color: #1ABC9C;
@@ -234,15 +330,16 @@ body {
     font-size: 14px !important;
 }
 
+/*刪除
 .btn.btn-white.btn-sm {
     width: 60px;
     border-radius: 3px;
     border: 1px solid #BFBFBF !important;
     box-shadow: 0 0;
-    color: #263646 !important;
+    color: #000 !important;
     letter-spacing: 2px;
     font-weight: lighter;
-}
+}*/
 
 .form-control {
     text-align: right !important;
@@ -255,18 +352,24 @@ body {
     border-radius: 3px !important;
     padding-top: 0px;
     padding-bottom: 0px;
+    margin: 3px;
 }
 
 .form-control:disabled, .form-control[readonly] {
-    margin-top: 2px !important;
+    margin-top: 1px !important;
     padding-right: 8px;
     background-color: transparent;
     border: 0px solid !important;
 }
 
 .p-l {
-    font-size: 14px;
+    font-size: 15.5px;
     font-weight: lighter !important;
+    letter-spacing: 0px;
+}
+
+.font-13 {
+    font-size: 14.8px !important;
 }
 
 .font-13.text-right.bg-poly-deeporange.text-white {
@@ -315,9 +418,9 @@ body {
 }
 
 .text-right.font-18 {
-    color: #263646;
-    font-size: 16px !important;
-    letter-spacing: 1px !important;
+    padding-right: 20px;
+    font-size: 19.6px !important;
+    font-weight: 400;
 }
 
 .input-group-addon.bootstrap-touchspin-postfix {
@@ -326,19 +429,17 @@ body {
 
 .control-label.font-22 {
     color: #7CCEF5;
-    letter-spacing: 3px !important;
+    letter-spacing: 1px !important;
 }
 
 .side-menu {
-    background-color: #36404a !important;
+    background-color: #34495e !important;
     width: 48px !important;
 }
 
 .container-fluid {
     line-height: 1.25;
 }
-
-
 
 .col-md-3 {
     min-width: 472px !important;
@@ -376,14 +477,52 @@ body {
 }
 
 .nvd3-svg {
-    transform: scale(1.125);
+    transform: scale(1.16) translate(-10px,0px);
 }
 
 .nvd3.nv-pie path {
-    stroke-width: 0;
+    stroke-width: 1px;
+    stroke-opacity: 1;
+    stroke: #CCC;
 }
 
 .nvd3 text {
-    font-size: 14px;
+    font-size: 14.8px;
     font-weight: bold;
+}
+
+/*表格模塊*/
+.table td {
+    height: 45px;
+}
+
+.borderright {
+    border-right: 2px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.bg-white.has-border, .table.borderless.has-border,  tr.has-border {
+    background-color: #F2F2F2 !important;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+th {
+    color: #34495e !important;
+    background-color: #fff !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.col-md-2 {
+    min-width: 336px !important;
+    max-width: 336px !important;
+}
+
+.col-md-3 {
+    min-width: 464px !important;
+    max-width: 464px !important;
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+.text-right.bg-poly-deeporange, .bg-poly-blue.text-right {
+    border-right: 3px solid rgba(0, 0, 0, 0.1);
 }

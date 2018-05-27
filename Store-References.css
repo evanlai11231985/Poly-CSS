@@ -1,24 +1,135 @@
 /*修改*/
 body {
     font-family: Roboto, 'Microsoft JhengHei', '微軟正黑體';
-    padding-bottom: 0px !important;
+}
+
+.wrapper {
+    padding-top: 2vh;
+}
+
+.col-12 {
+    top: 0px !important;
+    position: relative !important;
+    left: 0px !important;
+}
+
+.hrBold {
+    display: none !important;
+    width: 90%;
+    background-color: #222 !important;
+    margin-bottom: 20px !important;
+}
+
+.btn-white {
+    font-size: 15px !important;
+    margin-top: 10px;
+    letter-spacing: -2px;
 }
 
 .content-page {
     margin-left: 192px !important;
-    margin-top: 1.2vh;
-    transform: scale(0.966);
+    position: relative;
+    padding: 0px !important;
+    transform-origin: 0% 0%;
+    overflow-y: scroll;
 }
 
 .side-menu {
-    width: 217px !important;
+    width: 212px !important;
+    transform-origin: 0% 0%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
+
+/*縮放*/
+@media (max-width: 1074px) and (max-height: 526px) {
+}
+
+@media (min-width: 974px) and (min-height: 490px) {
+
+}
+
+@media (min-width: 1102px)and (min-height: 498px) {
+
+}
+
+@media (min-width: 1102px)and (min-height: 570px) {
+
+}
+
+@media (min-width: 1230px) and (min-height: 570px) {
+
+}
+
+@media (min-width: 1230px) and (min-height: 650px) {
+
+}
+
+@media (min-width: 1316px) {
+
+}
+
+@media (min-width: 1390px) {
+
+}
+
+@media (min-width: 1550px) {
+
+}
+
+@media (min-width: 1630px) {
+    .wrapper {
+	width: 1440px;
+    }
+    .content-page {
+    	height: 90vh;
+	transform: scale(1.2);
+    }
+}
+
+@media (min-width: 1870px) {
+    .wrapper {
+	width: 1440px;
+    }
+    .content-page {
+    	height: 100vh;
+	transform: scale(1.333);
+    }
+}
+
+@media (min-width: 1870px) and (min-height: 1050px) {
+    .wrapper {
+	width: 1440px;
+    }
+    .content-page {
+    	height: 90vh;
+	transform: scale(1.4);
+    }
+}
+
+@media (min-width: 2510px) {
+    .wrapper {
+	width: 1440px;
+    }
+    .content-page {
+    	height: 100vh;
+	transform: scale(1.9);
+    }
+}
+
+@media (min-width: 2510px) and (min-height: 1450px) {
+    .wrapper {
+	width: 1440px;
+    }
+    .content-page {
+    	height: 90vh;
+	transform: scale(1.92);
+    }
+}
+
 
 /*btn 移至新增區*/
 
-.wrapper {
-    padding-top: 1vh;
-}
 
 /*修改*/
 .slider.slider-horizontal {
@@ -63,11 +174,13 @@ body {
     color: #26B0F0;
 }
 
+
 .btn-lightblue, .btn-lightblue:hover, .btn-lightblue:focus, .btn-lightblue:active, .btn-lightblue.active, .btn-lightblue.focus, .btn-lightblue:active, .btn-lightblue:focus, .btn-lightblue:hover, .open > .dropdown-toggle.btn-lightblue {
     border: 1px solid #26B0F0 !important;
     background-color: #26B0F0;
     color: white !important;
 }
+
 /*深灰藍*/
 .bg-poly-darkblue {
     background-color: #34495E;
@@ -86,11 +199,11 @@ body {
 }
 /*灰*/
 .bg-poly-gray {
-    background-color: #A6A6A6;
+    background-color: #808080;
 }
 
 .text-poly-gray {
-    color: #A6A6A6;
+    color: #808080;
 }
 /*綠*/
 .bg-poly-green {
@@ -196,25 +309,6 @@ body {
 
 
 /*以下新增*/
-.btn, .btn-lightblue {
-    box-shadow: 0px 0px #000 !important;
-}
-
-.disable a, .btn-warning, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open > .dropdown-toggle.btn-warning {
-    font-weight: lighter !important;
-    color: #fff !important;
-    letter-spacing: -2px !important;
-    font-weight: lighter !important;
-    padding: 20px !important;
-    padding-top: 6px !important;
-    padding-bottom: 6px !important;
-    background-color: #FFA900 !important;
-    border: 2px solid #FFC000 !important;
-    border-bottom: 3px solid #DB7800 !important;
-    border-radius: 3px;
-    box-shadow: 0px 0px !important;
-}
-
 .btn-lg, .btn-default, .btn-default:hover {
     font-family: 'Roboto', 'Microsoft JhengHei', '微軟正黑體';
     color: #404040 !important;
@@ -268,18 +362,19 @@ body {
 
 .portlet {
     letter-spacing: .5px;
-    border-radius: 3px;
-    border: 1px solid #EAEAEA;
-    border-right: 2px solid #EAEAEA;
-    border-bottom: 2px solid #EAEAEA;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);
 }
 
 .portlet-heading.text-white.bg-poly-lightblue {
+    border-radius: 12px 12px 0px 0px;
     color: #FFF !important;
     letter-spacing: 2px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .portlet-body {
+    border-radius: 0px 0px 12px 12px !important;
     padding-top: 27px !important;
 }
 
@@ -300,7 +395,7 @@ body {
 }
 
 .font-18.left {
-    font-size: 14px !important;
+    font-size: 16px !important;
     font-weight: lighter !important;
     letter-spacing: .5px;
     padding-left: 10px !important;
@@ -308,7 +403,6 @@ body {
 
 .font-20.text-white {
     font-weight: lighter !important;
-    font-size: 16px !important;
 }
 
 .font-20.top {
@@ -334,6 +428,11 @@ body {
     font-size: 14px !important;
 }
 
+.bg-poly-lightblue.text-white {
+    padding-top:10px !important;
+    padding-bottom:10px !important;
+}
+
 .col-md-4 {
     line-height: 2 !important;
 }
@@ -344,10 +443,10 @@ body {
 
 .m-r-10.m-l-10.text-white {
     font-weight: lighter !important;
-    padding-left: 18px;
-    padding-right: 18px !important;
-    font-size: 12.5px;
-    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px !important;
+    font-size: 13px;
+    text-align: left !important;
 }
 
 .m-r-10.m-l-10.text-white.extra {
@@ -357,16 +456,11 @@ body {
     font-size: 10.5px;
     text-align: left;
     color: #CFDAE4 !important;
+    margin-bottom: 36px;
 }
 
 .m-t-20 {
     margin-top: 48px !important;
-}
-
-.hrBold {
-    width: 90%;
-    background-color: #222 !important;
-    margin-bottom: 20px !important;
 }
 
 .bg-lightdark {
@@ -376,7 +470,7 @@ body {
 .switchery-demo .switchery {
     opacity: .8 !important;
     transform: scale(0.8);
-    border: 2px solid #DFDFDF !important;
+    border: 2px solid #EAEAEA !important;
 
     .switchery.switchert-small
 
@@ -389,6 +483,16 @@ body {
 }
 
 .footer {
-    font-size: 12px;
-    color: #BFBFBF;
+    text-align: center !important;
+    font-size: 14px;
+    color: #A6A6A6;
+    background: transparent !important;
 }
+
+    .col-12.text-center {
+      display: none;
+    }
+    .footer:after {
+      content: '© 2018 和和資創有限公司 權利所有';
+      white-space: pre;
+    }

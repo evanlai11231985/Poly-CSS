@@ -4,6 +4,21 @@ body {
     padding-bottom: 48px !important;
 }
 
+/*縮放*/
+@media (max-width: 1202px) {
+    .table {
+        width: 92vw;
+        transform-origin: 0% 0%;
+        transform: scale(.96);
+    }
+}
+
+@media (min-width: 1630px) {
+    .table {
+        height: 94vh;
+    }
+}
+
 .wrapper {
     padding-top: 1vh;
 }
@@ -51,29 +66,28 @@ body {
     background-color: #26B0F0;
     color: white !important;
 }
-/*深灰藍*/
+/*深灰藍*//*修改*/
 .bg-poly-darkblue {
-    background-color: #34495E;
+    background: linear-gradient(to left, #544A6f, #34495e);
 }
 
 .text-poly-darkblue {
     color: #34495E;
 }
-/*深灰藍2*/
+/*深灰藍2*//*修改*/
 .bg-poly-darkblue2 {
-    background-color: #263646;
-}
+    background: linear-gradient(to left, #463868, #263646);}
 
 .text-poly-darkblue {
     color: #263646;
 }
 /*灰*/
 .bg-poly-gray {
-    background-color: #A6A6A6;
+    background-color: #808080;
 }
 
 .text-poly-gray {
-    color: #A6A6A6;
+    color: #808080;
 }
 /*綠*/
 .bg-poly-green {
@@ -255,7 +269,8 @@ body {
 }
 
 .bg-poly-darkblue.text-white.font-28 {
-    font-size: 22px !important;
+    font-size: 28px !important;
+    font-weight: 300 !important;
     letter-spacing: 12px;
 }
 
@@ -271,7 +286,7 @@ body {
 }
 
 .m-l-5.font-22 {
-    font-size: 16px !important;
+    font-size: 18px !important;
     margin-left: -2px !important;
 }
 
@@ -291,7 +306,7 @@ body {
 }
 
 .side-menu {
-    background-color: #36404a !important;
+    background-color: #34495e !important;
     width: 48px !important;
 }
 
@@ -318,12 +333,11 @@ body {
 }
 
 .slider .first .slider-selection {
-   background-color: #FF7800;
+   background-color: #FF8800;
 }
 
 .switchery-demo .switchery {
     transform:scale(0.8);
-    border: 0px none #FFF !important;
 }
 
 .col-3.switchery-demo.text-left {
@@ -352,23 +366,27 @@ body {
 }
 
 .bg-poly-darkblue2 {
-    box-shadow: 0px 3px 0 #D9D9D9 !important;
+    box-shadow: 3px 3px 0 #263646 !important
 }
 
 .bg-poly-darkblue.text-white {
-    line-height: 1.8;
+    border-right: 3px solid #263646;
 }
 
 .borderright {
-    border-right: 1.75px solid #EAEAEA !important;
+    border-right: 2px solid #EAEAEA !important;
 }
 
 .borderright.major {
-    border-right: 1.75px solid #34485d !important;
+    border-right: 2px solid #263646 !important;
 }
 
 .bg-white.text-poly-darkblue.font-22 {
-    box-shadow: 0px 3px 0 #D9D9D9 !important;
+    box-shadow: 3px 3px 0 #D9D9D9 !important;
+}
+
+.bg-white {
+    background-color: #FBFBFB !important;
 }
 
 .content-page {
@@ -381,6 +399,7 @@ body {
     color: #BFBFBF;
 }
 
-svg.peity {
-    transform:scale(.96)
+svg.peity, canvas  {
+    transform:scale( .92)
 }
+

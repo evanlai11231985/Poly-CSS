@@ -1,6 +1,7 @@
+/*修改*/
 body {
     font-family: Roboto, 'Microsoft JhengHei', '微軟正黑體';
-    padding-bottom: 0px;
+    padding-bottom: 20px;
 }
 
 /*btn 移至新增區*/
@@ -17,8 +18,8 @@ body {
 
 @media (min-width: 974px) {
     .wrapper {
-      width: 1280px;
-      transform: scale(.8);
+      width: 1152px;
+      transform: scale(.888);
     }
 }
 
@@ -145,12 +146,13 @@ body {
 }
 /*灰*/
 .bg-poly-gray {
-    background-color: #A6A6A6;
+    background-color: #808080;
 }
 
 .text-poly-gray {
-    color: 000;
+    color: #000;
 }
+
 /*綠*/
 .bg-poly-green {
     background-color: #1ABC9C;
@@ -265,7 +267,7 @@ body {
 }
 
 img {
-    image-rendering: crisp-edges;
+    image-rendering: auto;
     height: 200px !important;
 }
     #cheerL {
