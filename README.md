@@ -3,7 +3,7 @@ Poly-CSS 對應網頁:
 <店鋪類>
 
 1. 歡迎畫面
-https://dl.dropbox.com/s/o4wuchzp38k0ecy/Store-Welcome-Page.css
+https://dl.dropbox.com/s/qspdzsvqa2yvfzx/Store-Welcome-Page.css
 
 2. 基本資料
 https://dl.dropbox.com/s/wwojf0smzz4ask4/Store-Basic-Info.css
