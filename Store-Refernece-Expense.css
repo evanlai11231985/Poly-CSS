@@ -1,8 +1,14 @@
 /*修改*/
+html {
+    background: #f2f4f5;
+}
+
+/*修改*/
 body {
     font-family: Roboto, 'Microsoft JhengHei', '微軟正黑體';
     font-size: 15px;
     color: #34495e;
+    background: inherit;
 }
 
 .wrapper {
@@ -21,81 +27,99 @@ body {
 /*縮放*/
 @media (min-width: 974px) {
     .content-page {
-        width: 200%;
-        transform: scale(.5875) !important;
+        width: 205%;
+        transform: scale(0.555) translateY(10px) !important;
+    }
+    .side-menu {
+        overflow: scroll;
     }
 }
 
 @media (min-width: 1102px) {
     .content-page {
-        width: 180%;
-        transform: scale(.64) !important;
+        width: 185%;
+        transform: scale(.6) !important;
+    }
+    .side-menu {
+        overflow: hidden;
     }
 }
 
 @media (min-width: 1230px) {
     .content-page {
-        max-width: 162%;
-        transform: scale(.7) !important;
+        max-width: 167%;
+        transform: scale(.67) !important;
     }
 }
 
 @media (min-width: 1316px) and (min-height: 618px) {
     .content-page {
-        max-width: 155%;
-        transform: scale(.666) !important;
+        max-width: 160%;
+        transform: scale(.67) !important;
     }
 }
 
 @media (min-width: 1390px) {
     .content-page {
-        max-width: 140%;
-        transform: scale(.8) !important;
+        max-width: 144%;
+        transform: scale(.76) !important;
     }
 }
 
 @media (min-width: 1550px) {
     .content-page {
-        max-width: 130%;
-        transform: scale(.8) !important;
+        max-width: 135%;
+        transform: scale(.76) !important;
     }
 }
 
 @media (min-width: 1630px) {
     .content-page {
-        max-width: 120%;
-        transform: scale(.95) !important;
+        max-width: 123%;
+        transform: scale(.89) !important;
     }
 }
 
 @media (min-width: 1870px) {
     .content-page {
-        max-width: 105%;
-        transform: scale(.97) !important;
+        max-width: 110%;
+        transform: scale(.92) !important;
     }
 }
 
 @media (min-width: 1870px) and (min-height: 1050px) {
     .content-page {
-        max-width: 105%;
-        min-height: 100vh;
-        transform: scale(1.08)  !important;
+        max-width: 108%;
+        transform: scale(1.03) !important;
     }
 }
 
 @media (min-width: 2510px) {
     .content-page {
-        max-width: 80%;
-        min-height: 100vh;
-        transform: scale(1.33) !important;
+        max-width: 83%;
+	height: 100vh;
+        transform: scale(1.23) translateY(20px) !important;
     }
 }
 
 @media (min-width: 2510px) and (min-height: 1450px) {
     .content-page {
         max-width: 80%;
-        min-height: 95vh;
-        transform: scale(1.433) !important;
+        transform: scale(1.37) translateY(20px) !important;
+    }
+}
+
+@media (min-width: 3790px) {
+    .content-page {
+        max-width: 56%;
+        transform: scale(1.92) translateY(20px) !important;
+    }
+}
+
+@media (min-width: 5070px) {
+    .content-page {
+        max-width: 45%;
+        transform: scale(2.5) translateY(20px) !important;
     }
 }
 
@@ -326,8 +350,12 @@ body {
 
 .btn.btn-white.font-24.text-white {
     width: 30px;
-    padding-left: 6.6px;
+    padding-left: 8px;
     font-size: 14px !important;
+    background: #fff !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: 3px 3px #263646 !important;
 }
 
 /*刪除
@@ -428,7 +456,8 @@ body {
 }
 
 .control-label.font-22 {
-    color: #7CCEF5;
+/*    color: #7CCEF5;*/
+    color: #34495e;
     letter-spacing: 1px !important;
 }
 
@@ -459,6 +488,7 @@ body {
 
 .sweet-alert {
     width: 640px;
+    transform: scale(1.08);
 }
 
 .tooltip-inner {
@@ -481,9 +511,9 @@ body {
 }
 
 .nvd3.nv-pie path {
-    stroke-width: 1px;
+    stroke-width: 2px;
     stroke-opacity: 1;
-    stroke: #CCC;
+    stroke: #ccc;
 }
 
 .nvd3 text {
@@ -492,6 +522,12 @@ body {
 }
 
 /*表格模塊*/
+table {
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-radius: 5px;
+}
+
 .table td {
     height: 45px;
 }
@@ -501,8 +537,10 @@ body {
 }
 
 .bg-white.has-border, .table.borderless.has-border,  tr.has-border {
-    background-color: #F2F2F2 !important;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    background-color: #F6F6F6 !important;
+    border: none !important;
+    border-bottom: 5px solid #DFDFDF !important; 
+    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 th {

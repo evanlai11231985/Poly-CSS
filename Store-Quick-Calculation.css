@@ -1,13 +1,19 @@
 /*修改*/
+html {
+    background: #f2f4f5;
+}
+
+/*修改*/
 body {
     font-family: Roboto, 'Microsoft JhengHei', '微軟正黑體';
     padding-bottom: 2% !important;
+    background: inherit;
 }
 
 /*縮放*/
 .wrapper {
     transform-origin: 0% 0%;
-    min-height: 100vh;
+    min-height: 110vh;
 }
 
 @media (min-width: 924px) {
@@ -64,6 +70,9 @@ body {
       width: 1440px;
       transform: scale(1.333);
     }
+    .portlet {
+      line-height: 3.8;
+    }
 }
 
 @media (min-width: 2510px) {
@@ -71,8 +80,31 @@ body {
       width: 1600px;
       transform: scale(1.6);
     }
+    .portlet {
+      line-height: 5;
+    }
 }
 
+@media (min-width: 3790px) {
+    .wrapper {
+      width: 1680px;
+      transform: scale(2.286);
+    }
+}
+
+@media (min-width: 4046px) {
+    .wrapper {
+      width: 1680px;
+      transform: scale(2.44);
+    }
+}
+
+@media (min-width: 5070px) {
+    .wrapper {
+      width: 1680px;
+      transform: scale(3.05);
+    }
+}
 
 /*btn 移至新增區*/
 
@@ -252,14 +284,14 @@ body {
 }
 
 /*以下新增*/
-.btn.btn-white, .btn.btn-white:hover, .btn.btn-white:focus, .btn.btn-white:active {
+.btn.btn-white, .btn.btn-white:hover, .btn.btn-white:focus, .btn.btn-white:active, .btn, .btn:hover, .btn:active {
     max-width: 64%;
     margin-left: 18%;
     font-size: 18px !important;
     font-weight: lighter !important;
-    color: #BFBFBF !important;
+    color: #A9A9A9 !important;
     box-shadow: 0px 0px;
-    border: 2px solid #BFBFBF !important;
+    border: 2px solid #C6C6C6 !important;
     border-radius: 24px !important;
     background-color: transparent !important;
 }
@@ -273,10 +305,10 @@ body {
     font-weight: lighter !important;
     color: #fff !important;
     background-color: #FFA900 !important;
-    border: 3px solid #FF9800 !important;
-    border-top: 3px solid #FFC700 !important;
+    border: 3px solid #FF8800 !important;
+    border-top: 4px solid #FFC700 !important;
     border-bottom: 4px solid #DB7800 !important;
-    box-shadow: 0 0 6px #FF7800 !important;
+/*    box-shadow: 0 0 6px #FF7800 !important;   */
     border-radius: 48px !important;
 }
 
@@ -284,7 +316,7 @@ body {
 .col-3.text-right, .col-3.text-left {
     padding: 0px;
     letter-spacing: .5px;
-    margin-top: 320px !important;
+    margin-top: 360px !important;
 }
 
 .col-md-6 {
@@ -294,33 +326,42 @@ body {
 
 .portlet {
     margin-bottom: 27px !important;
+    border-bottom: 8px solid #D9D9D9;
+    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
+}
+
+.portlet-heading {
+    letter-spacing: 5px;
 }
 
 .table-bordered {
-    transform:scale(.96);
+    transform:scale(.94);
     border-collapse: collapse !important;
-    background-color: #FFF;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+    background-color: #FFF !important;
+    border: none !important;
+    border-bottom: 8px solid #D9D9D9 !important;
+    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3) !important;
 }
 
 .col-12.text-center {
-    font-size: 20px !important;
+    font-size: 24px !important;
     color: #404040;
-    letter-spacing: 2.4px;
+    letter-spacing: 3.6px;
 }
 
 .col-6.text-center.font-22 {
-    font-size: 16px !important;
+    font-size: 19.6px !important;
     color: #404040;
+    letter-spacing: 2px;
     text-align: left !important;
     padding-left: 12.5%;
-    letter-spacing: 2.4px;
+    padding-bottom: 10px !important;
 }
 
 .col-6.text-right.font-18, .col-6.text-left.font-18 {
-    background-color:#F7F7F7;
-    font-size: 16px !important;
-    letter-spacing: 2.4px;
+    background-color:#fafafa;
+    font-size: 18px !important;
+    letter-spacing: 2px;
 }
 
 .control-label.font-22 {
@@ -342,7 +383,7 @@ body {
 }
 
 .slider.slider-horizontal .slider-track-high {
-    box-shadow: 0px 0px 0px 1px #DFDFDF;
+    box-shadow: 0px 0px 0px 2px #D9D9D9;
 }
 
 .slider.slider-horizontal .slider-selection {
@@ -350,14 +391,21 @@ body {
 }
 
 .slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle {
-    border: 2px solid #D9D9D9;
-}
+    transform: scale(1.25);
+    border-top: 2.5px solid #EFEFEF;
+    border-right: 2.5px solid #DFDFDF;
+    border-bottom: 2.5px solid #BFBFBF;
+    border-left: 2.5px solid #DFDFDF;}
 
 div#C10BottomLineDiv, div#B4Div {
     margin-top: -.6px !important;
 }
 
 /*文字*/
+small {
+    font-size: 86.7%;
+}
+
 .col-3.text-right {
     font-size: 14.5px;
     margin-left: 12px;
@@ -406,10 +454,6 @@ label#D14Text {
 p.control-label {
     color: #34495e;
     font-size: 20px;
-}
-
-.portlet-heading {
-    letter-spacing: 5px;
 }
 
 .footer {

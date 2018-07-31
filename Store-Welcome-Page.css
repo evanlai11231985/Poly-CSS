@@ -1,7 +1,13 @@
 /*修改*/
+html {
+    background: #f2f4f5;
+}
+
+/*修改*/
 body {
     font-family: Roboto, 'Microsoft JhengHei', '微軟正黑體';
     line-height: 2;
+    background: inherit;
 }
 
 .wrapper {
@@ -10,10 +16,16 @@ body {
     padding-bottom: 5%;
 }
 
+
+
 /*縮放*/
 .wrapper {
     transform-origin: 0% 0%; 
     min-height: 100vh;
+}
+
+.col-md-6 {
+    padding: 10vh;
 }
 
 @media (min-width: 974px) {
@@ -41,6 +53,9 @@ body {
     .wrapper {
       width: 1280px;
       transform: scale(1.067);
+    }
+    .col-md-6 {
+      padding: 5vh 10vh;
     }
 }
 
@@ -79,6 +94,26 @@ body {
     }
 }
 
+@media (min-width: 3790px) {
+    .wrapper {
+      width: 1800px;
+      transform: scale(2.125);
+    }
+}
+
+@media (min-width: 4046px) {
+    .wrapper {
+      width: 1800px;
+      transform: scale(2.26);
+    }
+}
+
+@media (min-width: 5070px) {
+    .wrapper {
+      width: 2160px;
+      transform: scale(2.333);
+    }
+}
 
 /*btn移至新增區*/
 
@@ -149,11 +184,11 @@ body {
 }
 /*灰*/
 .bg-poly-gray {
-    background-color: #808080;
+    background-color: #999;
 }
 
 .text-poly-gray {
-    color: #808080;
+    color: #999;
 }
 /*綠*/
 .bg-poly-green {
@@ -265,19 +300,39 @@ body {
     color: #fff !important;
     letter-spacing: -2px !important;
     background-color: #FFA900 !important;
-    box-shadow: 0px 6px #DB7800 !important;
+    border: 3px solid #FFC700 !important;
+    border-right: 3px solid #FF6800 !important;
+    border-bottom: 5px solid #DD7800 !important;
     border-radius: 3px !important;
+    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
     transition: all 50ms linear;
 }
-    .btn-warning:hover {
-        font-weight: 400 !important;
-        color: #fff !important;
-        letter-spacing: -2px !important;
-        background-color: #FFA900 !important;
-    	box-shadow: 0px 2px #DB7800 !important;
-    	transform: translateY(4px);
-    	transition: all 50ms linear;
-    }
+	.btn-warning:hover {
+	    font-size: 21px !important;
+	    font-weight: 400 !important;
+	    color: #fff !important;
+	    letter-spacing: -2px !important;
+	    background-color: #FFA900 !important;
+	    border: 3px solid #FFC700 !important;
+	    border-right: 3px solid #FF6800 !important;
+	    border-bottom: 5px solid #DD7800 !important;
+	    box-shadow: 0 0;
+            transform: translate(3px, 2px);
+	    transition: all 50ms linear;
+	}
+
+	.btn-warning:active {
+	    font-size: 21px !important;
+	    font-weight: 400 !important;
+	    color: #fff !important;
+	    letter-spacing: -2px !important;
+	    background-color: #FFA900 !important;
+	    border: 3px solid #FFC700 !important;
+	    border-right: 3px solid #FF6800 !important;
+	    border-bottom: 5px solid #DD7800 !important;
+            transform: translate(3px, 2px);
+	    transition: all 50ms linear;
+	}
 
 .btn-warning:active {
     box-shadow: inherit;
@@ -286,30 +341,32 @@ body {
 .portlet {
     margin-bottom: 10px;
     border-radius: 5px;
+    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 .portlet-body, .portlet-heading {
     background-color: #fbfbfb !important;
-    border-left: 3px solid #FFF;
-    border-right: 3px solid #DFDFDF;
+    border-left: 5px solid #FFF;
+    border-right: 5px solid #DFDFDF;
 }
 
 .portlet-body {
-    border-radius: 0px 0px 5px 5px;
-    border-bottom: 3px solid #D9D9D9 !important;
+    border-radius: 0px 0px 5px 5px !important;
+    border-bottom: 5px solid #D9D9D9 !important;
 }
 
 .portlet-heading {
-     border-radius: 5px 5px 0px 0px;
-     border-top: 3px solid #FFF;
+     border-radius: 5px 5px 0px 0px !important;
+     border-top: 5px solid #FFF;
 }
 
 div.bg-poly-orange {
      background-color: #FFC000;
-     border-left: 3px solid #FFD1A8;
-     border-top: 3px solid #FFD1A8;
-     border-bottom: 3px solid #FCA902;
-     border-right: 3px solid #DB6800;
+     border-left: 5px solid #FFD1A8;
+     border-top: 5px solid #FFD1A8;
+     border-bottom: 5px solid #FCA902;
+     border-right: 7px solid #DB6800;
+     min-width: calc(100% + 2px);
 }
 
 .footer {
@@ -327,9 +384,17 @@ div.bg-poly-orange {
       white-space: pre;
     }
 
-.col-md-6 {
-    padding: 10vh;
+.col-md-8 {
+    padding: 5px 0 0 0;
+    line-height: 1.2;
 }
+
+
+/*.col-md-8.text-center.font-24.text-poly-gray:after {
+    content: '* 適合品牌差異化、成長用途，非週轉融資';
+    font-size: 14.4px !important;
+}*/
+
 
 .b, strong {
     letter-spacing: 2px;
@@ -340,7 +405,7 @@ div.bg-poly-orange {
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.6;
     margin: auto;
 }
 

@@ -1,7 +1,14 @@
 /*修改*/
+html {
+    background: #f2f4f5;
+}
+
+/*修改*/
 body {
     font-family: Roboto, 'Microsoft JhengHei', '微軟正黑體';
-    padding-bottom: 20px;
+    color; #404040;
+    margin-bottom: 20px;
+    background: inherit;
 }
 
 /*btn 移至新增區*/
@@ -79,11 +86,32 @@ body {
     }
 }
 
+@media (min-width: 3790px) {
+    .wrapper {
+      width: 1280px;
+      transform: scale(3);
+    }
+}
+
+@media (min-width: 4046px) {
+    .wrapper {
+      width: 1280px;
+      transform: scale(3.2);
+    }
+}
+
+@media (min-width: 5070px) {
+    .wrapper {
+      width: 1280px;
+      transform: scale(4);
+    }
+}
+
 /*修改*/
 .slider.slider-horizontal {
     width: 66.666%;
     height: 20px;
-    margin-left: 3vw
+    margin-left: 38.4px;
 }
 
 .col-align {
@@ -237,7 +265,7 @@ body {
 /*讀取畫面*/
 .globalMaskscreen {
     /*display: none;*/
-    position: fixed;
+    position: absolute;
     top: 0%;
     left: 0%;
     width: 100%;
@@ -247,19 +275,33 @@ body {
 }
 
 .pageProgressbar {
-    position: fixed;
+    position: relative;
     width: 50%;
     left: 25%;
-    top: 45%;
+    top: unset !important;
+    margin: 24% 0;
     z-index: 1002;
 }
 
 /*以下新增*/
 .progress.progress-lg .progress-bar {
-    font-size: 14px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: transparent;
 }
+
+    .progress-bar-warning {
+	background-color: #FFA900;
+    }
+
     .progress.progress-lg {
-        height: 24px !important;
+        height: 30px !important;
+    }
+
+    .progress-bar:after {
+        content: '載入中...';
+        color: #fff;
+        margin: 0px 0px 20px;
     }
 
 .wizard, .tabcontrol {
@@ -283,9 +325,9 @@ img {
     padding-top: 6px !important;
     padding-bottom: 6px !important;
     font-weight: 400 !important;
-    color: #BFBFBF !important;
+    color: #A9A9A9 !important;
     box-shadow: 0px 0px !important;
-    border: 2px solid #C9C9C9 !important;
+    border: 2px solid #C6C6C6 !important;
     background-color: transparent !important;
 }
 
@@ -299,7 +341,7 @@ img {
     background-color: #FFA900 !important;
     border: 2px solid #FFC000 !important;
     border-bottom: 3px solid #DB7800 !important;
-    border-radius: 3px;
+    border-radius: 3px !important;
     box-shadow: 0px 0px !important;
 }
 
@@ -321,7 +363,7 @@ img {
     }
 
 .form-control-lg {
-    margin-top: 2.7vh !important;
+    margin-top: 16.8px !important;
     display: block;
     width: 100%;
     font-size: 3.6rem !important;
@@ -333,7 +375,8 @@ img {
     background-clip: padding-box;
     border: 0px !important;
     border-bottom: 5px solid #D9D9D9 !important;
-    border-radius: .25rem;
+    border-radius: 48px;
+    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 .form-control {
@@ -341,9 +384,13 @@ img {
     font-weight: 400;
     color: #404040;
     text-align: right !important;
-    height: 30px !important;
-    border: 2px solid #D9D9D9 !important;
-    border-radius: 3px !important;
+    height: 32px !important;
+    background-color: #FFF;
+    border-bottom: 2px solid #EFEFEF !important;
+    border-left: 2px solid #C9C9C9 !important;
+    border-top: 2px solid #C9C9C9 !important;
+    border-right: 2px solid #EFEFEF !important;
+    border-radius: 6px !important;
 }
 
     .form-control:disabled, .form-control[readonly] {
@@ -354,7 +401,8 @@ img {
     .form-control:focus {
         border: 2px solid #C9C9C9 !important;
         font-weight: bold;
-        box-shadow: 0px 1px 4px 0 rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+ 	box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.3);
     }
 
 
@@ -365,24 +413,24 @@ img {
 
 .form-group.row.bg-white {
     vertical-align: middle !important;
-    background-color: #FBFBFB !important;
-    border-radius: 3px;
-    border: 3px solid #FFF;
-    border-right: 4px solid #DFDFDF;
-    border-bottom: 4px solid #DFDFDF;
+    padding-bottom: 1%;
+    background-color: #FFF !important;
+    border-radius: 5px;
+    border-bottom: 5px solid #D9D9D9;
+    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.3);
     line-height: 2;
 }
 
 .text-poly-gray.font-36 {
     font-weight: 400;
-    color: #BFBFBF;
+    color: #A6A6A6;
     letter-spacing: 10px;
 }
 
 .text-poly-gray.font-40 {
     line-height: 2.5;
     font-size: 32px !important;
-    color: #BFBFBF;
+    color: #A6A6A6;
 }
 
 .col-3 {
@@ -395,17 +443,18 @@ img {
 
 .col-12 {
     text-align: center !important;
-    margin-top: -1vh;
-    margin-bottom: -1vh;
+    margin-top: -7px;
+    margin-bottom: -7px;
 }
 
 .col-md-12.text-right {
+    color: #404040;
     font-size: 11.5px;
 }
 
 hr {
     margin-top: .75rem;
-    border-top: 2.5px solid #F5F5F5;
+    border-top: 2.5px solid #EFEFEF;
 }
 
 .actions.clearfix, .ul {
@@ -415,10 +464,10 @@ hr {
 }
 
 .text-poly-gray.font-16 {
-    font-size: 12.5px !important;
-    font-style: italic;
-    color: #AFAFAF !important;
-    letter-spacing: .8px !important;
+    font-size: 13px !important;
+    color: #A6A6A6 !important;
+    letter-spacing: 1px !important;
+    padding-left: 3px;
 }
 
 .control-label.font-26.m-l-10 {
@@ -442,6 +491,8 @@ hr {
 
 .bg-lightdark {
     background-color: #F5F5F5 !important;
+    margin-bottom: -1%;
+    padding-bottom: 1%;
 }
 
 .slider.slider-primary.col-12 {
@@ -458,7 +509,11 @@ hr {
 }
 
 .slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle {
-    border: 2px solid #D9D9D9;
+    transform: scale(1.2);
+    border-top: 2.5px solid #EFEFEF;
+    border-right: 2.5px solid #DFDFDF;
+    border-bottom: 2.5px solid #BFBFBF;
+    border-left: 2.5px solid #DFDFDF;
 }
 
 .control-label.font-16 {
@@ -468,7 +523,16 @@ hr {
 
 .switchery-demo .switchery {
     transform: scale(0.75);
-    border: 2px solid #D9D9D9 !important;
+    background: #EAEAEA !important;
+    border-bottom: 2px solid #DFDFDF !important;
+    border-left: 2px solid #BFBFBF !important;
+    border-top: 2px solid #BFBFBF !important;
+    border-right: 2px solid #DFDFDF !important;
+}
+
+.sweet-alert {
+    width: 640px;
+    transform: scale(1.08);
 }
 
 .footer {
@@ -484,4 +548,10 @@ hr {
     .footer:after {
       content: '© 2018 和和資創有限公司 權利所有';
       white-space: pre;
+    }
+
+#SeatDensityHelpText:before {
+      content: '(也可從此處調整業種)';
+      font-size: small;
+      color: #A6A6A6;
     }
